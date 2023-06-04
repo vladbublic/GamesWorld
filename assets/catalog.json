@@ -1,0 +1,91 @@
+[
+  {
+    "image": "assets/img/img_callofduty.png",
+    "name": "Call of Duty: Modern Warfare 2",
+    "id": 1,
+    "price": "2199"
+  },
+  {
+    "image": "assets/img/img_horizon.png",
+    "name": "Horizon: Forbidden West",
+    "id": 2,
+    "price": 2799,
+    "newPrice": 1999
+  },
+  {
+    "image": "assets/img/img_eldenring.png",
+    "name": "Elden Ring",
+    "id": 3,
+    "price": "1499"
+  },
+  {
+    "image": "assets/img/thelastofus.jpg",
+    "name": "The Last Of Us",
+    "id": 4,
+    "price": "2399"
+  },
+  {
+    "image": "assets/img/spiderman.jpg",
+    "name": "Spider Man: Miles Morales",
+    "id": 5,
+    "price": 2399,
+    "newPrice": 1699
+  },
+  {
+    "image": "assets/img/godofwar.jpg",
+    "name": "God Of War: Ragnarok",
+    "id": 6,
+    "price": "2599"
+  },
+  {
+    "image": "assets/img/hogwarts.jpg",
+    "name": "Hogwarts Legacy",
+    "id": 7,
+    "price": "2499"
+  },
+  {
+    "image": "assets/img/grantursimo.jpg",
+    "name": "Gran Turismo 7",
+    "id": 8,
+    "price": "2699"
+  },
+  {
+    "image": "assets/img/ghostoftsusima.jpg",
+    "name": "Ghost of Tsusima",
+    "id": 9,
+    "price": "2199",
+    "newPrice": "1199"
+  },
+  {
+    "image": "assets/img/returnal.jpg",
+    "name": "Returnal",
+    "id": 10,
+    "price": "2299"
+  },
+  {
+    "image": "assets/img/deadisland.jpg",
+    "name": "Dead Island 2",
+    "id": 11,
+    "price": "2399"
+  },
+  {
+    "image": "assets/img/wwe.jpg",
+    "name": "WWE2K23",
+    "id": 12,
+    "price": "2599",
+    "newPrice": "2199"
+  },
+  {
+    "image": "assets/img/uncharted.jpg",
+    "name": "Dead Space",
+    "id": 13,
+    "price": "1799",
+    "newPrice": "1499"
+  },
+  {
+    "image": "assets/img/resident.jpg",
+    "name": "Resident Evil: Village",
+    "id": 14,
+    "price": "2399"
+  }
+]

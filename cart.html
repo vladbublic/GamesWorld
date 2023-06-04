@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-set">
+            <a class="logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+            <ul class="menu">
+
+                <li class="menu_item">
+                    <a href="index.html" class="menu_item_text">
+                        Головна
+                    </a>
+                </li>
+
+                <li class="menu_item">
+                    <a href="catalog.html" class="menu_item_text">
+                        Каталог
+                    </a>
+                </li>
+
+                <li class="menu_item">
+                    <a href="#" class="menu_item_text">
+                        Кошик
+                    </a>
+                </li>
+            </ul>
+            <a href="tel:+380666037907" class="phone">
+                066-603-7907
+            </a>
+
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="cart">
+        <div class="items">
+        </div>
+
+        <div class="order">
+            <form action="https://formspree.io/f/mknaerbw" method="POST" class="order-form">
+                <h2 class="order-form-title">
+                    Оформлення замовлення
+                </h2>
+                <label>
+                    <input type="text" placeholder="Ім'я*" name="Ім'я" class="input" id="nameId" required>
+                    <input type="email" placeholder="Email" name="email" class="input">
+                    <input type="tel" placeholder="Телефон*" name="Телефон" class="input" id="phoneId" required>
+                    <input type="text" placeholder="Місто*" name="Місто" class="input" id="cityId" required>
+                    <input type="text" placeholder="Пошта*" name="Пошта" class="input" id="postId" required>
+                    <textarea placeholder="Додатковий коментар" name="Коментар" class="input input-text"></textarea>
+
+                </label>
+                <h2 class="total-price">
+
+                </h2>
+
+                <button type="submit" class="checkout-btn">Підтвердити замовлення</button>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="/assets/js/cart.js"></script>
+</body>
+</html>

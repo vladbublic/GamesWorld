@@ -1,0 +1,127 @@
+.cart {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    flex-direction: row;
+
+}
+
+.item-img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: -50px;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-top: -50px;
+}
+
+.item-info .item_title {
+    margin-bottom: 5px;
+    font-size: 18px;
+    width: 150px;
+    text-align: left;
+}
+
+.item-info .item_price {
+    margin-bottom: 5px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.count-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.count-input {
+    margin-top: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+
+}
+
+.delete-button {
+    margin-left: 50px;
+    display: flex;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-image: url('/assets/img/trash.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    margin-top: -20px;
+}
+
+
+.order {
+    height: 100%;
+    position: sticky;
+    top: 10vh;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 150px;
+    width: 200px;
+
+}
+
+.order-form-title {
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.order-form .input, .order-form .input-text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 500px;
+}
+
+.order-form .input-text {
+    padding-bottom: 50px;
+}
+
+.total-price {
+    padding-top: 50px;
+}
+
+.checkout-btn {
+    font-weight: 500;
+    margin-top: 50px;
+    font-size: 18px;
+    border: none;
+    padding: 16px 75px;
+    background: #4fd529;
+    color: #fff;
+    border-radius: 30px;
+    outline: transparent;
+    cursor: pointer;
+
+}
+
+
+.checkout-btn:hover {
+    color: #262626;
+    background: #00ff59;
+}

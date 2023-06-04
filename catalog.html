@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/catalog.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-set">
+            <a class="logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+            <ul class="menu">
+
+                <li class="menu_item">
+                    <a href="index.html" class="menu_item_text">
+                        Головна
+                    </a>
+                </li>
+
+                <li class="menu_item">
+                    <a href="#" class="menu_item_text">
+                        Каталог
+                    </a>
+                </li>
+
+                <li class="menu_item">
+                    <a href="cart.html" class="menu_item_text">
+                        Кошик
+                    </a>
+                </li>
+            </ul>
+            <a href="tel:+380666037907" class="phone">
+                066-603-7907
+            </a>
+
+        </div>
+    </div>
+</header>
+
+<section class="search">
+
+    <label for="searchInput"></label>
+    <input type="text" placeholder="Введіть назву товару" name="text" class="input input-search" id="searchInput">
+    <button onclick="search()" class="btn-search"></button>
+
+</section>
+
+<section class="catalog" id="catalog">
+    <div class="items">
+    </div>
+</section>
+<script type="text/javascript" src="/assets/js/catalog.js"></script>
+</body>
+</html>
